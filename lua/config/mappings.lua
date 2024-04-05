@@ -20,6 +20,16 @@ local mappings = {
     u = { '<cmd>MasonUpdate<cr>', 'Update Packages' },
     d = { '<cmd>MasonUninstallAll<cr>', 'Uninstall All Packages'},
   },
+  d = {
+    name = 'Debugger',
+    b = { '<cmd>DapToggleBreakpoint<cr>', 'Breakpoint' },
+    c = { '<cmd>DapContinue<cr>', 'Continue' },
+    i = { '<cmd>DapStepInto<cr>', 'StepInto' },
+    u = { '<cmd>DapStepOut<cr>', 'StepOut' },
+    v = { '<cmd>DapStepOver<cr>', 'StepOver' },
+    t = { '<cmd>DapTerminate<cr>', 'Terminate' },
+    o = { '<cmd>lua require("dapui").open()<cr>', 'Open Debugger' }
+  },
 }
 
 map('n', 'ss', '<cmd>split<cr>')

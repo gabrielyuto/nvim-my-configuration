@@ -1,6 +1,8 @@
 local dap = require 'dap'
 local dapui = require 'dapui'
 
+dapui.setup({})
+
 dap.listeners.before.attach.dapui_config = function()
   dapui.open()
 end
@@ -24,6 +26,4 @@ dap.adapters.java = function(callback)
     port = port;
   })
 end
-
-vim.keymap.set('n', '<Space>dt', dap.toggle_breakpoint, {})
 

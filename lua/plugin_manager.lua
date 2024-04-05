@@ -7,6 +7,8 @@ local plugins = {
   'folke/neodev.nvim',
   'j-hui/fidget.nvim',
   'rcarriga/nvim-notify',
+  'mfussenegger/nvim-jdtls',
+  'folke/neodev.nvim',
   {
     'folke/tokyonight.nvim',
     config = function()
@@ -62,7 +64,6 @@ local plugins = {
       'mfussenegger/nvim-dap', 
       'nvim-neotest/nvim-nio',
       'rcarriga/cmp-dap',
-
     }
   }
 }
