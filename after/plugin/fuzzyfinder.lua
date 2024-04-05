@@ -9,7 +9,8 @@ telescope.setup {
       '%.jpg',
       '.git',
       'node_modules/',
-      '.vscode/'
+      '.vscode/',
+      '.target/'
     }
   }
 }

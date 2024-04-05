@@ -27,6 +27,32 @@ local plugins = {
       'nvim-lua/plenary.nvim' 
     },
   },
+  {
+    'neovim/nvim-lspconfig',
+    dependencies = {
+      'neovim/nvim-lspconfig',
+      'hrsh7th/cmp-nvim-lsp',
+      'hrsh7th/cmp-buffer',
+      'hrsh7th/cmp-path',
+      'hrsh7th/cmp-cmdline',
+      'hrsh7th/nvim-cmp',
+    }
+  },
+  {
+    'L3MON4D3/LuaSnip',
+    -- version = '<CurrentMajor>.*',
+    -- build = 'make install_jsregexp',
+    dependencies = {
+      'rafamadriz/friendly-snippets',
+      'saadparwaiz1/cmp_luasnip'
+    }
+  },
+  {
+    'williamboman/mason.nvim',
+    dependencies = {
+      'williamboman/mason-lspconfig.nvim'
+    }
+  }
 }
 
 lazy.setup(plugins)
