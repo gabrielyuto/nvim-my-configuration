@@ -3,8 +3,6 @@ local servers = {
   'tsserver',
   'html',
   'cssls',
-  'gopls',
-  'lua_ls',
   'jdtls'
 }
 

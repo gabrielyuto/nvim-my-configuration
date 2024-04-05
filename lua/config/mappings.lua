@@ -19,7 +19,7 @@ local mappings = {
     i = { '<cmd>MasonInstall<cr>', 'Install Packages'},
     u = { '<cmd>MasonUpdate<cr>', 'Update Packages' },
     d = { '<cmd>MasonUninstallAll<cr>', 'Uninstall All Packages'},
-  }
+  },
 }
 
 map('n', 'ss', '<cmd>split<cr>')

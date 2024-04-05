@@ -55,6 +55,15 @@ local plugins = {
     dependencies = {
       'williamboman/mason-lspconfig.nvim'
     }
+  },
+  { 
+    'rcarriga/nvim-dap-ui', 
+    dependencies = {
+      'mfussenegger/nvim-dap', 
+      'nvim-neotest/nvim-nio',
+      'rcarriga/cmp-dap',
+
+    }
   }
 }
 
