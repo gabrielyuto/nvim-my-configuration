@@ -1,4 +1,5 @@
 local map = vim.keymap.set
+
 local mappings = {
   e = { '<cmd>NvimTreeToggle<cr>', 'File Explorer' },
   q = { '<cmd>quit<cr>', 'Quit' },
@@ -15,8 +16,9 @@ local mappings = {
   p = {
     name = 'Package manager',
     p = { '<cmd>Mason<cr>', 'Open Package Manager'},
+    i = { '<cmd>MasonInstall<cr>', 'Install Packages'},
     u = { '<cmd>MasonUpdate<cr>', 'Update Packages' },
-    d = { '<cmd>MasonUninstallAll<cr>', 'Uninstall All Packages'}, 
+    d = { '<cmd>MasonUninstallAll<cr>', 'Uninstall All Packages'},
   }
 }
 

@@ -4,10 +4,13 @@ local plugins = {
   'windwp/nvim-ts-autotag',
   'windwp/nvim-autopairs',
   'folke/which-key.nvim',
+  'folke/neodev.nvim',
+  'j-hui/fidget.nvim',
+  'rcarriga/nvim-notify',
   {
     'folke/tokyonight.nvim',
     config = function()
-      vim.cmd 'colorscheme tokyonight-night' 
+      vim.cmd 'colorscheme tokyonight-night'
     end
   },
   {
@@ -21,10 +24,10 @@ local plugins = {
     build = ':TSUpdate',
   },
   {
-    'nvim-telescope/telescope.nvim', 
+    'nvim-telescope/telescope.nvim',
     tag = '0.1.6',
-    dependencies = { 
-      'nvim-lua/plenary.nvim' 
+    dependencies = {
+      'nvim-lua/plenary.nvim'
     },
   },
   {
